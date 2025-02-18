@@ -6,13 +6,15 @@
 
 @font-face {
   font-family: FranklinGothicDemi;
-  src: url("../assets/GeneralSans-Regular.otf");
+  src: url("../assets/fonts/GeneralSans-Regular.woff2") format("woff2"),
+    url("../assets/fonts/GeneralSans-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: FranklinGothicDemi;
   font-weight: bold;
-  src: url("../assets/GeneralSans-Bold.otf");
+  src: url("../assets/fonts/GeneralSans-Bold.woff2") format("woff2"),
+    url("../assets/fonts/GeneralSans-Bold.woff") format("woff");
 }
 
 .hero-main .font-family-frank {
@@ -190,7 +192,7 @@
 
 @media (min-width: 670px) and (max-width: 767px) {
   .hero-main .hero {
-    max-width: 100%;
+    max-width: 45%;
   }
 
   .hero-main .hero-image {
