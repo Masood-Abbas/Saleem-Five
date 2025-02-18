@@ -94,7 +94,7 @@
 
   .hero-main .hero-paragraph {
     font-size: 2em !important;
-    padding-bottom: 60px !important;
+    /* padding-bottom: 60px !important; */
   }
 
   .hero-main .hero-image-main {
